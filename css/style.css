@@ -1,1 +1,29 @@
 /* 公共样式 */
+/* pc顶端 */
+.navbar{
+   margin: 0;
+   border: none;
+   border-radius: 0;
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   -ms-border-radius: 0;
+   -o-border-radius: 0;
+}
+/* 顶部样式 */
+.Top{
+    min-height:50px;
+    background: #f8f8f8;
+}
+.Top .col-md-2 , .Top .col-md-10{
+    padding: 0;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.logo img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
